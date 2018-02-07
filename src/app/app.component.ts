@@ -7,11 +7,11 @@ import { Question } from './Question';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  private colors: String[] = ["red", "yellow", "blue", "green", "purple", "orange"];
+  public colors: String[] = ["red", "yellow", "blue", "green", "purple", "orange"];
   private questions: Question[] = [];
-  private selectedColor: string = "black";
-  private selectedQuestion: Question = new Question("", "");
-  private showAnswer: boolean = false;
+  public selectedColor: string = "black";
+  public selectedQuestion: Question = new Question("", "");
+  public showAnswer: boolean = false;
 
   constructor() { }
 
