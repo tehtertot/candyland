@@ -1,0 +1,72 @@
+@import '~@angular/material/prebuilt-themes/pink-bluegrey.css';
+
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+
+mat-toolbar-row {
+    justify-content: center;
+}
+
+mat-grid-list {
+    width: 99%;
+    text-align: center;
+}
+
+mat-grid-tile {
+    border: 10px solid white;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+.mat-button {
+    display: inline-block;
+    white-space: nowrap;
+    text-decoration: none;
+    vertical-align: baseline;
+    text-align: center;
+    margin: 0;
+    outline: 0;
+    min-width: 88px;
+    line-height: 36px;
+    padding: 0 16px;
+    border-radius: 2px;
+    background: transparent;
+    font-family: 'Rammetto One', cursive;
+}
+
+.main {
+    font-size: 1.2em;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 10%;
+    top: 10%;
+    width: 75%;
+    height: 75%;
+    padding: 2%;
+    margin: auto;
+    border-radius: 6px;
+    border: 2px solid black;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 400%;
+    text-align: center;
+}
+
+.close {
+    margin-top: 0;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.show {
+    text-decoration: underline; 
+}
