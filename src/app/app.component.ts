@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Question } from './Question';
-// import { QuestionOverlayService } from './question-overlay.service';
-// import { QuestionOverlayRef } from './display/question-overlay-ref';
 
 @Component({
   selector: 'app-root',
